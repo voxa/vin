@@ -22,7 +22,8 @@
     "transpiled",
     "typedoc",
     "untracked",
-    "voxa"
+    "voxa",
+    "voxasoftworks"
   ],
   "flagWords": [],
   "ignorePaths": [
