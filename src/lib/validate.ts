@@ -5,6 +5,7 @@
  * ### Example (es module)
  * ```js
  * import { validate } from '@voxa/vin';
+ *
  * console.log(validate('11111111111111111'));
  * // => true
  * ```
@@ -12,6 +13,7 @@
  * ### Example (es module)
  * ```js
  * var validate = require('@voxa/vin').validate;
+ * 
  * console.log(validate('11111111111111111'));
  * // => true
  * ```
