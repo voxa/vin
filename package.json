@@ -1,5 +1,5 @@
 {
-  "name": "@voxa/vin",
+  "name": "@voxasoftworks/vin",
   "version": "1.0.0",
   "description": "A package for validating vehicle identification numbers (VINs) written in TypeScript",
   "main": "build/main/index.js",

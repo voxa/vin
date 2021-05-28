@@ -1,13 +1,13 @@
-# @voxa/vin
+# @voxasoftworks/vin
 
-`@voxa/vin` is a package for validating vehicle identification numbers (VINs) written in TypeScript.
+`@voxasoftworks/vin` is a package for validating vehicle identification numbers (VINs) written in TypeScript.
 
 This package checks for the right length, the right characters and a correct check digit.
 
 ## Usage
 
 ```js
-import { validate } from '@voxa/vin'
+import { validate } from '@voxasoftworks/vin'
 
 console.log(validate('11111111111111111'));
 // => true
