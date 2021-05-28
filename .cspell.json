@@ -21,7 +21,8 @@
     "sandboxed",
     "transpiled",
     "typedoc",
-    "untracked"
+    "untracked",
+    "voxa"
   ],
   "flagWords": [],
   "ignorePaths": [
@@ -29,6 +30,7 @@
     "package-lock.json",
     "yarn.lock",
     "tsconfig.json",
-    "node_modules/**"
+    "node_modules/**",
+    "src/lib/*.spec.ts"
   ]
 }
