@@ -59,6 +59,10 @@ test('an undefined value', (t) => {
     t.false(validate(undefined));
 });
 
+test('no value', (t) => {
+    t.false(validate());
+});
+
 test('a valid lowercase VIN', (t) => {
     const valid = validVins.map((vin) => validate(vin.toLowerCase()));
     t.true(valid.every((r) => r === true));
