@@ -10,7 +10,7 @@
  * // => true
  * ```
  *
- * ### Example (es module)
+ * ### Example (commonjs module)
  * ```js
  * var validate = require('@voxasoftworks/vin').validate;
  *
